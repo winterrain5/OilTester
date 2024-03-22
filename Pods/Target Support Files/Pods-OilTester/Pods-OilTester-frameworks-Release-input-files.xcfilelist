@@ -1,0 +1,4 @@
+${PODS_ROOT}/Target Support Files/Pods-OilTester/Pods-OilTester-frameworks.sh
+${BUILT_PRODUCTS_DIR}/SPIndicator/SPIndicator.framework
+${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework
+${BUILT_PRODUCTS_DIR}/SwifterSwift/SwifterSwift.framework

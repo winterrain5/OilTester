@@ -1,0 +1,524 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 63;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		07FD3019B98884383D1A4C1D /* Pods_OilTester.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 349F8E2B15A59BF067862470 /* Pods_OilTester.framework */; };
+		451CD91A2BA4287800177839 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 451CD9192BA4287800177839 /* AppDelegate.swift */; };
+		451CD91C2BA4287800177839 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 451CD91B2BA4287800177839 /* SceneDelegate.swift */; };
+		451CD91E2BA4287800177839 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 451CD91D2BA4287800177839 /* ViewController.swift */; };
+		451CD9212BA4287800177839 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 451CD9202BA4287800177839 /* Base */; };
+		451CD9232BA4287A00177839 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 451CD9222BA4287A00177839 /* Assets.xcassets */; };
+		451CD9262BA4287A00177839 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 451CD9252BA4287A00177839 /* Base */; };
+		451CD9412BA428AA00177839 /* BabyBluetooth.m in Sources */ = {isa = PBXBuildFile; fileRef = 451CD92E2BA428AA00177839 /* BabyBluetooth.m */; };
+		451CD9422BA428AA00177839 /* BabyCallback.m in Sources */ = {isa = PBXBuildFile; fileRef = 451CD9302BA428AA00177839 /* BabyCallback.m */; };
+		451CD9432BA428AA00177839 /* BabyCentralManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 451CD9322BA428AA00177839 /* BabyCentralManager.m */; };
+		451CD9442BA428AA00177839 /* BabyDefine.m in Sources */ = {isa = PBXBuildFile; fileRef = 451CD9342BA428AA00177839 /* BabyDefine.m */; };
+		451CD9452BA428AA00177839 /* BabyOptions.m in Sources */ = {isa = PBXBuildFile; fileRef = 451CD9362BA428AA00177839 /* BabyOptions.m */; };
+		451CD9462BA428AA00177839 /* BabyPeripheralManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 451CD9382BA428AA00177839 /* BabyPeripheralManager.m */; };
+		451CD9472BA428AA00177839 /* BabyRhythm.m in Sources */ = {isa = PBXBuildFile; fileRef = 451CD93A2BA428AA00177839 /* BabyRhythm.m */; };
+		451CD9482BA428AA00177839 /* BabySpeaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 451CD93C2BA428AA00177839 /* BabySpeaker.m */; };
+		451CD9492BA428AA00177839 /* BabyToy.m in Sources */ = {isa = PBXBuildFile; fileRef = 451CD93E2BA428AA00177839 /* BabyToy.m */; };
+		451CD94B2BA428B800177839 /* test.swift in Sources */ = {isa = PBXBuildFile; fileRef = 451CD94A2BA428B800177839 /* test.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		349F8E2B15A59BF067862470 /* Pods_OilTester.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OilTester.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		451CD9162BA4287800177839 /* OilTester.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OilTester.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		451CD9192BA4287800177839 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		451CD91B2BA4287800177839 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		451CD91D2BA4287800177839 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		451CD9202BA4287800177839 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		451CD9222BA4287A00177839 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		451CD9252BA4287A00177839 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		451CD9272BA4287A00177839 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		451CD92D2BA428AA00177839 /* BabyBluetooth.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BabyBluetooth.h; sourceTree = "<group>"; };
+		451CD92E2BA428AA00177839 /* BabyBluetooth.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BabyBluetooth.m; sourceTree = "<group>"; };
+		451CD92F2BA428AA00177839 /* BabyCallback.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BabyCallback.h; sourceTree = "<group>"; };
+		451CD9302BA428AA00177839 /* BabyCallback.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BabyCallback.m; sourceTree = "<group>"; };
+		451CD9312BA428AA00177839 /* BabyCentralManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BabyCentralManager.h; sourceTree = "<group>"; };
+		451CD9322BA428AA00177839 /* BabyCentralManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BabyCentralManager.m; sourceTree = "<group>"; };
+		451CD9332BA428AA00177839 /* BabyDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BabyDefine.h; sourceTree = "<group>"; };
+		451CD9342BA428AA00177839 /* BabyDefine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BabyDefine.m; sourceTree = "<group>"; };
+		451CD9352BA428AA00177839 /* BabyOptions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BabyOptions.h; sourceTree = "<group>"; };
+		451CD9362BA428AA00177839 /* BabyOptions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BabyOptions.m; sourceTree = "<group>"; };
+		451CD9372BA428AA00177839 /* BabyPeripheralManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BabyPeripheralManager.h; sourceTree = "<group>"; };
+		451CD9382BA428AA00177839 /* BabyPeripheralManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BabyPeripheralManager.m; sourceTree = "<group>"; };
+		451CD9392BA428AA00177839 /* BabyRhythm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BabyRhythm.h; sourceTree = "<group>"; };
+		451CD93A2BA428AA00177839 /* BabyRhythm.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BabyRhythm.m; sourceTree = "<group>"; };
+		451CD93B2BA428AA00177839 /* BabySpeaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BabySpeaker.h; sourceTree = "<group>"; };
+		451CD93C2BA428AA00177839 /* BabySpeaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BabySpeaker.m; sourceTree = "<group>"; };
+		451CD93D2BA428AA00177839 /* BabyToy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BabyToy.h; sourceTree = "<group>"; };
+		451CD93E2BA428AA00177839 /* BabyToy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BabyToy.m; sourceTree = "<group>"; };
+		451CD94A2BA428B800177839 /* test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = test.swift; sourceTree = "<group>"; };
+		451CD94C2BA428CE00177839 /* OilTester-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "OilTester-Bridging-Header.h"; sourceTree = "<group>"; };
+		8E5BA8C6CA47E3AC37D5CFF4 /* Pods-OilTester.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OilTester.release.xcconfig"; path = "Target Support Files/Pods-OilTester/Pods-OilTester.release.xcconfig"; sourceTree = "<group>"; };
+		93868982D73B9E689274ED54 /* Pods-OilTester.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OilTester.debug.xcconfig"; path = "Target Support Files/Pods-OilTester/Pods-OilTester.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		451CD9132BA4287800177839 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07FD3019B98884383D1A4C1D /* Pods_OilTester.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		451CD90D2BA4287800177839 = {
+			isa = PBXGroup;
+			children = (
+				451CD9182BA4287800177839 /* OilTester */,
+				451CD9172BA4287800177839 /* Products */,
+				B4B062573ECB3AAA057A985F /* Pods */,
+				A67AD9AB0C3A67D4AC2D320A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		451CD9172BA4287800177839 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				451CD9162BA4287800177839 /* OilTester.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		451CD9182BA4287800177839 /* OilTester */ = {
+			isa = PBXGroup;
+			children = (
+				451CD9402BA428AA00177839 /* Classes */,
+				451CD9192BA4287800177839 /* AppDelegate.swift */,
+				451CD91B2BA4287800177839 /* SceneDelegate.swift */,
+				451CD91D2BA4287800177839 /* ViewController.swift */,
+				451CD91F2BA4287800177839 /* Main.storyboard */,
+				451CD9222BA4287A00177839 /* Assets.xcassets */,
+				451CD9242BA4287A00177839 /* LaunchScreen.storyboard */,
+				451CD94A2BA428B800177839 /* test.swift */,
+				451CD9272BA4287A00177839 /* Info.plist */,
+				451CD94C2BA428CE00177839 /* OilTester-Bridging-Header.h */,
+			);
+			path = OilTester;
+			sourceTree = "<group>";
+		};
+		451CD93F2BA428AA00177839 /* bridging-for-swift */ = {
+			isa = PBXGroup;
+			children = (
+				451CD92D2BA428AA00177839 /* BabyBluetooth.h */,
+				451CD92E2BA428AA00177839 /* BabyBluetooth.m */,
+				451CD92F2BA428AA00177839 /* BabyCallback.h */,
+				451CD9302BA428AA00177839 /* BabyCallback.m */,
+				451CD9312BA428AA00177839 /* BabyCentralManager.h */,
+				451CD9322BA428AA00177839 /* BabyCentralManager.m */,
+				451CD9332BA428AA00177839 /* BabyDefine.h */,
+				451CD9342BA428AA00177839 /* BabyDefine.m */,
+				451CD9352BA428AA00177839 /* BabyOptions.h */,
+				451CD9362BA428AA00177839 /* BabyOptions.m */,
+				451CD9372BA428AA00177839 /* BabyPeripheralManager.h */,
+				451CD9382BA428AA00177839 /* BabyPeripheralManager.m */,
+				451CD9392BA428AA00177839 /* BabyRhythm.h */,
+				451CD93A2BA428AA00177839 /* BabyRhythm.m */,
+				451CD93B2BA428AA00177839 /* BabySpeaker.h */,
+				451CD93C2BA428AA00177839 /* BabySpeaker.m */,
+				451CD93D2BA428AA00177839 /* BabyToy.h */,
+				451CD93E2BA428AA00177839 /* BabyToy.m */,
+			);
+			path = "bridging-for-swift";
+			sourceTree = "<group>";
+		};
+		451CD9402BA428AA00177839 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				451CD93F2BA428AA00177839 /* bridging-for-swift */,
+			);
+			path = Classes;
+			sourceTree = SOURCE_ROOT;
+		};
+		A67AD9AB0C3A67D4AC2D320A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				349F8E2B15A59BF067862470 /* Pods_OilTester.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B4B062573ECB3AAA057A985F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				93868982D73B9E689274ED54 /* Pods-OilTester.debug.xcconfig */,
+				8E5BA8C6CA47E3AC37D5CFF4 /* Pods-OilTester.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		451CD9152BA4287800177839 /* OilTester */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 451CD92A2BA4287A00177839 /* Build configuration list for PBXNativeTarget "OilTester" */;
+			buildPhases = (
+				0EC6EB80B96F7A84BF482D0C /* [CP] Check Pods Manifest.lock */,
+				451CD9122BA4287800177839 /* Sources */,
+				451CD9132BA4287800177839 /* Frameworks */,
+				451CD9142BA4287800177839 /* Resources */,
+				FDCAD239CB82AB2E2C1B39D9 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OilTester;
+			productName = OilTester;
+			productReference = 451CD9162BA4287800177839 /* OilTester.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		451CD90E2BA4287800177839 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					451CD9152BA4287800177839 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+				};
+			};
+			buildConfigurationList = 451CD9112BA4287800177839 /* Build configuration list for PBXProject "OilTester" */;
+			compatibilityVersion = "Xcode 15.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 451CD90D2BA4287800177839;
+			productRefGroup = 451CD9172BA4287800177839 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				451CD9152BA4287800177839 /* OilTester */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		451CD9142BA4287800177839 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				451CD9232BA4287A00177839 /* Assets.xcassets in Resources */,
+				451CD9262BA4287A00177839 /* Base in Resources */,
+				451CD9212BA4287800177839 /* Base in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0EC6EB80B96F7A84BF482D0C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-OilTester-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FDCAD239CB82AB2E2C1B39D9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-OilTester/Pods-OilTester-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-OilTester/Pods-OilTester-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-OilTester/Pods-OilTester-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		451CD9122BA4287800177839 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				451CD9442BA428AA00177839 /* BabyDefine.m in Sources */,
+				451CD9472BA428AA00177839 /* BabyRhythm.m in Sources */,
+				451CD91E2BA4287800177839 /* ViewController.swift in Sources */,
+				451CD94B2BA428B800177839 /* test.swift in Sources */,
+				451CD9452BA428AA00177839 /* BabyOptions.m in Sources */,
+				451CD91A2BA4287800177839 /* AppDelegate.swift in Sources */,
+				451CD9462BA428AA00177839 /* BabyPeripheralManager.m in Sources */,
+				451CD9412BA428AA00177839 /* BabyBluetooth.m in Sources */,
+				451CD9432BA428AA00177839 /* BabyCentralManager.m in Sources */,
+				451CD9482BA428AA00177839 /* BabySpeaker.m in Sources */,
+				451CD9422BA428AA00177839 /* BabyCallback.m in Sources */,
+				451CD9492BA428AA00177839 /* BabyToy.m in Sources */,
+				451CD91C2BA4287800177839 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		451CD91F2BA4287800177839 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				451CD9202BA4287800177839 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		451CD9242BA4287A00177839 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				451CD9252BA4287A00177839 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		451CD9282BA4287A00177839 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		451CD9292BA4287A00177839 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		451CD92B2BA4287A00177839 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 93868982D73B9E689274ED54 /* Pods-OilTester.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4F6LM54QKY;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = OilTester/Info.plist;
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "是否始终允许使用蓝牙";
+				INFOPLIST_KEY_NSBluetoothPeripheralUsageDescription = "是否允许使用蓝牙";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.terra.oiltester;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "OilTester/OilTester-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		451CD92C2BA4287A00177839 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8E5BA8C6CA47E3AC37D5CFF4 /* Pods-OilTester.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4F6LM54QKY;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = OilTester/Info.plist;
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "是否始终允许使用蓝牙";
+				INFOPLIST_KEY_NSBluetoothPeripheralUsageDescription = "是否允许使用蓝牙";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.terra.oiltester;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "OilTester/OilTester-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		451CD9112BA4287800177839 /* Build configuration list for PBXProject "OilTester" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				451CD9282BA4287A00177839 /* Debug */,
+				451CD9292BA4287A00177839 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		451CD92A2BA4287A00177839 /* Build configuration list for PBXNativeTarget "OilTester" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				451CD92B2BA4287A00177839 /* Debug */,
+				451CD92C2BA4287A00177839 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 451CD90E2BA4287800177839 /* Project object */;
+}
